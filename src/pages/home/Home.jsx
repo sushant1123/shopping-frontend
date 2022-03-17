@@ -7,6 +7,7 @@ import Categories from "../../components/categories/Categories";
 
 import "./home.styles.js";
 import Products from "../../components/products/Products";
+import NewsLetter from "../../components/newsletter/NewsLetter";
 
 const Home = () => {
 	return (
@@ -16,6 +17,7 @@ const Home = () => {
 			<Slider />
 			<Categories />
 			<Products />
+			<NewsLetter />
 		</>
 	);
 };
