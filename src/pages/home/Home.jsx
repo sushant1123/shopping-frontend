@@ -8,6 +8,7 @@ import Categories from "../../components/categories/Categories";
 import "./home.styles.js";
 import Products from "../../components/products/Products";
 import NewsLetter from "../../components/newsletter/NewsLetter";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
 	return (
@@ -18,6 +19,7 @@ const Home = () => {
 			<Categories />
 			<Products />
 			<NewsLetter />
+			<Footer />
 		</>
 	);
 };
