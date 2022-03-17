@@ -23,7 +23,7 @@ const Navbar = () => {
 					<Language>EN</Language>
 					<SearchContainer>
 						{/* <input type="text" /> */}
-						<Input></Input>
+						<Input placeholder="Search" />
 						<Search />
 					</SearchContainer>
 				</Left>
