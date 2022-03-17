@@ -6,6 +6,7 @@ import Slider from "../../components/slider/Slider";
 import Categories from "../../components/categories/Categories";
 
 import "./home.styles.js";
+import Products from "../../components/products/Products";
 
 const Home = () => {
 	return (
@@ -14,6 +15,7 @@ const Home = () => {
 			<Navbar />
 			<Slider />
 			<Categories />
+			<Products />
 		</>
 	);
 };
